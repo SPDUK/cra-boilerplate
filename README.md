@@ -5,7 +5,7 @@
 # Dependencies:
   - React 16.3.1
   - Node-Sass-Chokidar
-  - pm-start-all
+  - npm-start-all
   - react-router-dom
 
 # Dev dependencies:
