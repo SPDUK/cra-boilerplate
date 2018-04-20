@@ -26,3 +26,4 @@
   - "editor.formatOnSave": false,
 
   - Prettier plugin is not needed, but if you have problems getting it to auto format on save you can enable prettier.
+  - Linebreak style is set to Windows CRLF // change with  "linebreak-style": 0, in .eslintrc
