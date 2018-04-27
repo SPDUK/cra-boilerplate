@@ -2,10 +2,11 @@
 
 - Based on create-react-app with some additions I use in every project.
 
-# Dependencies:
+# Things needed to make it run:
+  - npm-run-all (global)
+# Dependencies needed to install:
   - React 16.3.1
   - Node-Sass-Chokidar
-  - npm-start-all
   - react-router-dom
 
 # Dev dependencies:
