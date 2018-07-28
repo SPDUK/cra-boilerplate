@@ -70,7 +70,7 @@
         "editorCursor.foreground": "#ededed"
     },
 
-    // prettier settings, for when ESLint is disabled and Prettier is
+    // prettier settings, for when ESLint is disabled and Prettier is enabled
     "prettier.singleQuote": true,
     "prettier.eslintIntegration": true,
     "prettier.printWidth": 80,
