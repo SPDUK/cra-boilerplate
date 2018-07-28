@@ -22,7 +22,7 @@ ___
 ## [VsCode Settings](VsCode.txt)
 #### [With comments](VSCodeWithComments.txt)
 
-Click the settings wheel in the bottom left, click settings and paste into the right panel under User Settings.
+##### Click the settings wheel in the bottom left, click settings and paste into the right panel under User Settings.
 
 
 
