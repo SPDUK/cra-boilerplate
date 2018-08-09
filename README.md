@@ -69,6 +69,13 @@ ___
   ```
   solargraph download-core
   ```
+  *  Add a longer timeout in VSCode settings. When formatting, the default of 750ms can often timeout before finishing formatting with Ruby
+  ```
+  "[ruby]" {
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveTimeout": 5000
+    }
+  ```
   
  ### Ruby Snippets
  [Ruby on Rails](https://marketplace.visualstudio.com/items?itemName=hridoy.rails-snippets)
