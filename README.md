@@ -25,7 +25,7 @@ yarn add babel-eslint@7.2.3 eslint eslint-config-airbnb@16.1.0 eslint-config-pre
 
 
 
-## [VsCode Extensions](VsCode.txt)
+## VsCode Extensions
 ### Themes
 * [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
 
@@ -34,26 +34,52 @@ yarn add babel-eslint@7.2.3 eslint eslint-config-airbnb@16.1.0 eslint-config-pre
 
 * [VSCode icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
 
-### Code formatting
-* [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-* [Prettier ](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-
-### Code snippets
-* [ES7 React/Redux/GraphQL/React-Native Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-* [Javascript (ES6) Code Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-* [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
-
-
 ### Intellisense extras
 * [IntelliSense for CSS class names](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
 * [NPM Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 * [Path intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
-##  If you are using linux you will have to change these things for line-endings
+
+___
+# Javascript
+### Javascript Code formatting
+* [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Prettier ](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+### Javascript Code snippets
+* [ES7 React/Redux/GraphQL/React-Native Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+* [Javascript (ES6) Code Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+* [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
+
+
+
+
+___
+# Ruby Settings
+### Ruby Code formatting
+* [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)
+* [Ruby Solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph)
+  * How to set up Solargraph: Remove gems for robocop, parser and solargraph if they are installed already
+  * Install the solargraph gem (installs the previous 3 gems but with correct versions with it)
+  * Remove documentation for old versions of Ruby that solargraph uses (2.2 default), in terminal type
+   ```
+  solargraph clear-cores 
+  ```
+  * Update to the latest ruby documentation for autocomplete, rubocop etc
+  ```
+  solargraph download-core
+  ```
+  
+ ### Ruby Snippets
+ [Ruby on Rails](https://marketplace.visualstudio.com/items?itemName=hridoy.rails-snippets)
+ 
+___
+# Extras
+####  If you are using linux you will have to change these things for line-endings
 
 ##### in VSCode Settings
 ```
     "files.eol": "\n",
 ```
 
+ 
