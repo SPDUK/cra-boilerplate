@@ -8,12 +8,12 @@ Create an .eslintrc file in the root of your project, copy paste in the text fro
 
 Alternatively download the file(s) and drag it into your project.
 ```
-npm install babel-eslint@7.2.3 eslint eslint-config-airbnb@16.1.0 eslint-config-prettier@2.9.0 eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-standard prettier --save-dev
+npm install babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-standard prettier --save-dev
 ```
 
 #### yarn
 ```
-yarn add babel-eslint@7.2.3 eslint eslint-config-airbnb@16.1.0 eslint-config-prettier@2.9.0 eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-standard prettier --dev
+yarn add babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-standard prettier --dev
 ```
 
 
