@@ -3,6 +3,10 @@
 
 ## [.eslintrc](.eslintrc)
 ### Dev dependencies for ESLint
+#### for use with CRA 2+ (exclused babel-eslint & eslint which react has by default)
+```
+yarn add eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-standard prettier --dev
+```
 #### npm
 Create an .eslintrc file in the root of your project, copy paste in the text from .eslintrc.
 
