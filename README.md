@@ -77,3 +77,15 @@ Alternatively download the file and drag it into your project.
 [Ruby on Rails](https://marketplace.visualstudio.com/items?itemName=hridoy.rails-snippets)
 
 ---
+
+# Cmus
+
+Some simple scripts to fix cmus default hotkeys so they can be used globally and act differently.
+
+`cmus-focus` needs xdotool installed and just jumps to the window where the player is open.
+
+`cmus-next` and `cmus-previous` fix the behaviour for when the player is stopped or paused, it will just go to the previous/next song and play, by default it just moves down or up and doesn't play.
+
+`cmus start` will toggle pause/play, if cmus is not running it will open it
+
+To stop playing add a hotkey that runs `cmus-remote -s`
