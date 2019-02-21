@@ -4,10 +4,24 @@
 
 ### Dev dependencies for ESLint
 
-#### for use with CRA 2+ (exclused babel-eslint & eslint which react has by default)
+#### for use with CRA 2+ (excludes babel-eslint & eslint which react has by default)
 
 ```
 yarn add eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-standard prettier --dev
+```
+
+#### CRA 2 + with npm
+```
+npm i eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-standard prettier --save-dev
+```
+#
+
+#### For use with anything else (next.js etc):
+```
+yarn add eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-standard prettier babel-eslint eslint --dev
+```
+```
+npm i eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-standard prettier babel-eslint eslint --save-dev
 ```
 
 When using ESlint enable formatting for eslint set `"eslint.autoFixOnSave": true` to true and set `"[javascriptreact]": {"editor.formatOnSave": false}` and `"[javascript]": {"editor.formatOnSave": false},` to false, if using prettier and not using eslint then swap those so you use formatting on save isntead of eslint.
