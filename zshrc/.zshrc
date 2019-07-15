@@ -2,28 +2,27 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/steve/.oh-my-zsh"
+export ZSH="/home/sp/.oh-my-zsh"
 
+ZSH_THEME="lambda-mod"
 
-HYPHEN_INSENSITIVE="true"
-ZSH_THEME=""
+# Uncomment the following line to use case-sensitive completion.
+CASE_SENSITIVE="false"
 
-plugins=(
-  git
-  zsh-autosuggestions
-  mix
-)
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+HYPHEN_INSENSITIVE="false"
+
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git zsh-autosuggestions mix node ruby)
 
 source $ZSH/oh-my-zsh.sh
 
-# Pure zsh theme
-fpath+=('/home/steve/.nvm/versions/node/v11.6.0/lib/node_modules/pure-prompt/functions')
-
-autoload -U promptinit; promptinit
-prompt pure
-
-
-# ignore anything when entering a space before the command
+# don't add command to history when entering a space before the command
 export HISTIGNORE=' *'
 # aliases
 alias i="sudo apt install"
@@ -38,13 +37,7 @@ cd() {
     builtin cd "$@" && ls
 }
 
-
-# NVM
+# node version manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-# export PATH="$PATH:$HOME/.rvm/bin"
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
