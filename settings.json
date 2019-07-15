@@ -1,7 +1,7 @@
 {
   // disabling vscode extra bloat stuff
+  // hide the feedback icon (smiling face) with rightclick and select hide
   "telemetry.enableTelemetry": false,
-  "workbench.statusBar.feedback.visible": false,
   // appearance
   "workbench.colorTheme": "One Dark Pro",
   "editor.fontFamily": "Hack",
@@ -12,13 +12,11 @@
   "editor.wordWrap": "on",
   "editor.cursorBlinking": "smooth",
   "terminal.integrated.cursorStyle": "line",
-  "editor.wordWrapColumn": 120,
+  "editor.wordWrapColumn": 100,
   // fixing UI issues / no need to click confirm boxes
   "explorer.confirmDragAndDrop": false,
   "git.confirmSync": false,
   "git.autofetch": true,
-  "javascript.updateImportsOnFileMove.enabled": "always", // no need to confirm imports when filename changes
-  "javascript.implicitProjectConfig.experimentalDecorators": true, // stops errors using decorators
   // emmet and suggestions
   "editor.acceptSuggestionOnEnter": "off", // use tab for suggestions, so you can press enter to newline
   "editor.quickSuggestions": {
@@ -37,16 +35,19 @@
   // general formatting
   "eslint.autoFixOnSave": true, // toggle to false and enable [javascript] & [javascriptreact] when not using eslint
   "editor.formatOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "prettier.singleQuote": true,
-  "prettier.eslintIntegration": true,
-  "prettier.printWidth": 120,
   "[javascript]": {
     "editor.formatOnSave": false
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false
   },
+  "eslint.alwaysShowStatus": true,
+  "prettier.singleQuote": true,
+  "prettier.eslintIntegration": true,
+  "prettier.printWidth": 100,
+  //javascript
+  "javascript.updateImportsOnFileMove.enabled": "always", // no need to confirm imports when filename changes
+  "javascript.implicitProjectConfig.experimentalDecorators": true, // stops errors using decorators
   // ruby
   "[ruby]": {
     "editor.formatOnSave": true,
