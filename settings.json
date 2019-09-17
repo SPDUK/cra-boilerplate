@@ -33,14 +33,40 @@
     "erb": "erb"
   },
   // general formatting
-  "eslint.autoFixOnSave": true, // toggle to false and enable [javascript] & [javascriptreact] when not using eslint
+  // These are all my auto-save configs
   "editor.formatOnSave": true,
+  // turn it off for JS and JSX and vue files, we will do this via eslint
   "[javascript]": {
     "editor.formatOnSave": false
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false
   },
+  "[vue]": {
+    "editor.formatOnSave": false
+  },
+  // tell the ESLint plugin to run on save
+  "eslint.autoFixOnSave": true,
+  // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
   "eslint.alwaysShowStatus": true,
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
@@ -60,5 +86,13 @@
   "solargraph.rename": false,
   "solargraph.diagnostics": true,
   // elixir
-  "elixirLS.suggestSpecs": false
+  "elixirLS.suggestSpecs": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 100,
+  "git.enableSmartCommit": true,
+  // crystal
+  "crystal-lang.completion": true,
+  "crystal-lang.hover": true,
+  "crystal-lang.implementations": true,
 }
