@@ -1,0 +1,49 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+error_symbol = "×"
+
+[character]      # The name of the module we are configuring is "character"
+symbol = "ﬦ"     # The "symbol" segment is being set to "➜"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[elixir]
+symbol = " "
+
+[aws]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
