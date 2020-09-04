@@ -32,6 +32,15 @@ alias c="code-insiders"
 alias ls="ls -hN --color=auto --group-directories-first"
 alias dl=" youtube-dl --external-downloader axel --external-downloader-args '-n 15 -a'"
 
+# mac only 
+# test_browsers () {
+#   for browser in "Google Chrome" "Firefox" "Safari" "Opera"; do
+#     open -a $browser $1
+#   done
+# }
+
+
+
 # node version manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
