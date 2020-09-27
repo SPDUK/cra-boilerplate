@@ -2,9 +2,7 @@
 
 ## Install dotfiles
 - MPV: `curl https://raw.githubusercontent.com/SPDUK/dotfiles/master/mpv/mpv.conf > ~/.config/mpv/mpv.conf`
-
-
-Use `kinto` to remap to macos layout https://github.com/rbreaves/kinto
+- Use `kinto` to remap to macos layout https://github.com/rbreaves/kinto
 
 
 ## [.eslintrc](.eslintrc)
